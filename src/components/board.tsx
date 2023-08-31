@@ -12,7 +12,7 @@ const Chessboard: React.FC<ChessboardProps> = ({ boardData, selectedValue, onCel
   const renderRow = (rowIndex: number) => {
     const cells = []
 
-    for (let colIndex = 0; colIndex < 8; colIndex+``+) {
+    for (let colIndex = 0; colIndex < 8; colIndex++) {
       const isBlack = (rowIndex + colIndex) % 2 === 1
       const cellContent = boardData[colIndex][rowIndex]
 

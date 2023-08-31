@@ -6,7 +6,7 @@ import { CButton, Chessboard, CountDisplay, Navbar } from 'components'
 
 import { numRookCaptures } from './logic'
 
-interface GameProps {}
+interface GameProps { }
 interface Option {
   label: string
   value: string
@@ -84,4 +84,4 @@ const Game = (props: GameProps) => {
   )
 }
 
-export default Game
+export default Game;

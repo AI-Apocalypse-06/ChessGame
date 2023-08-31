@@ -1,3 +1,4 @@
+// Action.js
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { LoadingOverlay } from '@mantine/core'
@@ -6,7 +7,7 @@ import queryString from 'query-string'
 
 import ResetInput from './reset-input'
 
-interface ActionProps {}
+interface ActionProps { }
 
 interface IAction {
   mode: 'verifyEmail' | 'resetPassword'
